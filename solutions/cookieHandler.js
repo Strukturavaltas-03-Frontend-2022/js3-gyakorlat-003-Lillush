@@ -1,4 +1,4 @@
-const cookieHandler = {
+export const cookieHandler = {
   cookieObject: {},
   getAll() {
     const cookies = document.cookie.split("; ");
@@ -18,5 +18,3 @@ const cookieHandler = {
     });
   },
 };
-
-export default cookieHandler;
